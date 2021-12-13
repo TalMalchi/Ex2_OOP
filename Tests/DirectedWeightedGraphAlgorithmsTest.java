@@ -12,27 +12,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 class DirectedWeightedGraphAlgorithmsTest {
-//    public static DirectedWeightedGraph graphCreator(int v, int e, int seed) {
-//        DecimalFormat round = new DecimalFormat("##.##");
-//        round.setRoundingMode(RoundingMode.DOWN);
-//        Random rand = new Random((long)seed);
-//        DirectedWeightedGraph_ans g = new DirectedWeightedGraph_ans();
-//
-//        while(g.nodeSize() < v) {
-//            NodeDI x = new NodeDI();
-//            g.addNode(x);
-//        }
-//
-//        while(g.edgeSize() < e) {
-//            int node1 = (int)((double)v * rand.nextDouble());
-//            int node2 = (int)((double)v * rand.nextDouble());
-//            double tag = rand.nextDouble() * (double)v;
-//            g.connect(node1, node2, Double.valueOf(round.format(tag)));
-//        }
-//
-//        return g;
-//    }
-
 
     @Test
     void init() {
@@ -49,13 +28,7 @@ class DirectedWeightedGraphAlgorithmsTest {
         DirectedWeightedGraph root = graphCreator();
         check.init(root);
         Assertions.assertEquals(root, check.getGraph());
-//        DirectedWeightedGraph g= graphCreator(3, 2, 1);
-//        DirectedWeightedGraph g1= graphCreator(10, 90, 1);
-//
-//        check.init(g);
-//        Assertions.assertEquals(g, check.getGraph());
-//
-//        //Assertions.assertTrue(check.getGraph().equals(g1));
+
     }
 
     @Test

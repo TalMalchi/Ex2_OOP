@@ -50,15 +50,6 @@ class NodeDIDataTest {
         Assertions.assertEquals(nodeDICheck.getWeight(),5);
     }
 
-    @Test
-    void getInfo()
-    {
-        //    public String getInfo() {
-        //        return "id: " +this.id +" pos: " +g.toString() +" weight: " +this.weight;
-        //    }
-//        String ToCheck= "id: 4 pos: 3,3,3 weight: 5";//////////////////////////////////////////////////////
-//        Assertions.assertEquals(nodeDICheck.getInfo(),ToCheck);
-    }
 
     @Test
     void setInfo()

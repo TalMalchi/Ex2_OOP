@@ -14,18 +14,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import api.EdgeData;
-import api.GeoLocation;
-import api.NodeData;
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.geom.Line2D;
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Iterator;
-
 class GUI extends JFrame implements ActionListener {
     JPanel Panel,pop;
     JButton center, shortPath, load,isConnected,Save, tsp, Enterr;
@@ -330,7 +318,6 @@ class GUI extends JFrame implements ActionListener {
         this.setResizable(false);
 
     }
-
     private void tsp(){
         popup = new JFrame("TSP");//we will create new JFrame
 

@@ -21,10 +21,6 @@ public class Ex2 {
         graphAlgo.load(json_file);//load this json_file
         return graphAlgo.getGraph();//Return the underlying graph of which this class works.
 
-        //DirectedWeightedGraphAlgorithms graph = new DirectedWeightedGraphAlgorithmsClass();
-        //        graph.load(json_file);
-        //        return graph.getGraph();
-
     }
     /**
      * This static function will be used to test your implementation
@@ -48,14 +44,13 @@ public class Ex2 {
         DirectedWeightedGraphAlgorithms alg =  getGrapgAlgo(json_file);
         // ****** Add your code here ******
         GUI.runGUI((DirectedWeightedGraph_ans)alg.getGraph());
-//        Gframe gframe;
-//        gframe = new Gframe((DirectedWeightedGraphAlgorithms_ans) alg);
+
 
     }
 
     public static void main(String[] args) {
-        //runGUI(args[0]);
-        runGUI("G1.json");
+        runGUI(args[0]);
+        //runGUI("G1.json");
 
 
     }

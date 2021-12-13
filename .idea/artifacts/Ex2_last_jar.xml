@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Ex2_last:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Ex2_last_jar</output-path>
+    <root id="archive" name="Ex2_last.jar">
+      <element id="module-output" name="Ex2_last" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/gson-2.8.6 (2).jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/java-json (3).jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/json-simple-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/stdlib.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
