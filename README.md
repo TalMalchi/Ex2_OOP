@@ -1,7 +1,8 @@
 ## Ex2_OOP
 
 # ***About the Project:***   
-This project represents the structure of a directed weighted graph, and run algorithms on it  
+This project represents the structure of a directed weighted graph, and run algorithms on it    
+
 <img width="356" alt="‏‏לכידה" src="https://user-images.githubusercontent.com/93086649/145869414-dd4756e0-f02d-4ac6-95f1-b26d6bb6aa08.PNG">
 
 
